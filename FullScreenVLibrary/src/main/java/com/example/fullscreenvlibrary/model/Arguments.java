@@ -32,4 +32,5 @@ public class Arguments {
     public boolean hideProgress = false;
     public boolean hideFullscreenButton = false;
     public int seekToTimeMillis = -1;
+    public String thumbnailResStr = null;
 }
