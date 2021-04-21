@@ -27,6 +27,14 @@
         android:layout_height="match_parent" />
 
     <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:id="@+id/closeVideo_imageView"
+        android:src="@drawable/video_close_bg"/>
+
+    <ImageView
         android:id="@+id/thumbnail_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

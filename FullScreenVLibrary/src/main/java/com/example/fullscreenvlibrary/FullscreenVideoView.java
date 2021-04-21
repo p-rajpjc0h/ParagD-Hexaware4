@@ -64,6 +64,8 @@ public class FullscreenVideoView extends FrameLayout
     @Nullable
     private ImageView thumbnailImageView;
     @Nullable
+    public ImageView closeVideoViewImageView;
+    @Nullable
     private ImageButton fullscreenButton;
     @Nullable
     private VideoControllerView controller;
@@ -289,6 +291,7 @@ public class FullscreenVideoView extends FrameLayout
         progressBar = findViewById(R.id.progress_bar);
         controller = findViewById(R.id.video_controller);
         thumbnailImageView = findViewById(R.id.thumbnail_image_view);
+        closeVideoViewImageView = findViewById(R.id.closeVideo_imageView);
     }
 
     private void initOnBackPressedListener() {
