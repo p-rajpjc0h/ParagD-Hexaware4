@@ -27,10 +27,11 @@
         android:layout_height="match_parent" />
 
     <ImageView
-        android:layout_width="22dp"
-        android:layout_height="22dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:layout_gravity="end"
-        android:layout_margin="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/closeVideo_imageView"
         android:src="@drawable/video_close_bg"/>
 
